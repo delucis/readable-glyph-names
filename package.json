@@ -1,0 +1,35 @@
+{
+  "name": "readable-glyph-names",
+  "version": "0.0.1",
+  "description": "Unicode to readable character name mapping",
+  "main": "dist/names.json",
+  "scripts": {
+    "build": "napa && node lib/build.js",
+    "version": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucis/readable-glyph-names.git"
+  },
+  "keywords": [
+    "glyph",
+    "name",
+    "unicode",
+    "data"
+  ],
+  "author": "Chris Swithinbank <swithinbank@gmail.com> (http://chrisswithinbank.net/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/delucis/readable-glyph-names/issues"
+  },
+  "homepage": "https://github.com/delucis/readable-glyph-names#readme",
+  "napa": {
+    "glyphs-info": "schriftgestalt/GlyphsInfo"
+  },
+  "devDependencies": {
+    "napa": "^3.0.0",
+    "write-json-file": "^2.3.0",
+    "xml-js": "^1.6.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "readable-glyph-names",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Unicode to readable character name mapping",
   "main": "dist/names.json",
   "files": [
